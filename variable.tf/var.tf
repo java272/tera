@@ -5,7 +5,7 @@ variable "ec2_instance_type" {
 }
 
 variable "ec2_root_block_size" {
-default = 10
+default = 100000000
 type = number
   
 }
